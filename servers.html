@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KiwiRust Server</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>KiwiRust</h1>
+        </div>
+        <ul>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="download.html" class="nav-link">Download</a></li>
+            <li><a href="servers.html" class="nav-link active">Server</a></li>
+            <li><a href="https://dsc.gg/kiwirust" class="nav-link discord-icon" target="_blank"><i class="fab fa-discord"></i></a></li>
+        </ul>
+    </nav>
+
+    <!-- Server Section -->
+    <section class="server-section">
+        <div class="server-list">
+        <h2>KiwiRust Official Server</h2>
+        <p class="subtitle">Experience the ultimate Rust gameplay with our dedicated community.</p>
+        </div>
+
+        <br>
+
+        <!-- Server Info and Map side by side -->
+        <div class="server-content">
+            <!-- Server Info -->
+            <div class="server-list">
+                <div class="server-card">
+                    <h3>KiwiRust | 100X | KITS | MONTHLY | FREE TO PLAY</h3>
+                    <p><strong>IP:</strong> connect 51.161.198.96:28015</p>
+                    <button class="copy-ip-button" onclick="copyIP()">Copy IP</button>
+                    <p><strong>Map:</strong> Procedural</p>
+                    <p><strong>Wipe Schedule:</strong> Monthly</p>
+                    <p><strong>Players:</strong> 500 Slot</p>
+                    <p><strong>Region:</strong> OCE - New Zealand | Australia</p>
+                    <p><strong>Free To Play:</strong> Works On Cracked - Steam Clients</p>
+                </div>
+            </div>
+
+            <!-- Rust Map Section (Full size beside server info) -->
+            <div class="map-container"></div>
+        </div>
+
+        <!-- Action Buttons -->
+        <a href="download.html" class="cta-button">Download</a>
+        <a href="https://dsc.gg/kiwirust" class="cta-button secondary">Join Discord</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 KiwiRust. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script>
+        function copyIP() {
+            const ipText = "connect 51.161.198.96:28015";
+            navigator.clipboard.writeText(ipText).then(() => {
+                alert("IP Address copied to clipboard!");
+            });
+        }
+    </script>
+</body>
+
+</html>

@@ -395,6 +395,130 @@ button[type="submit"]:hover {
     text-decoration: underline;
 }
 
+/* Center the server section */
+.server-section {
+    text-align: center;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Create a flex container for the server info and map */
+.server-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;  /* Prevent the container from growing too wide */
+    margin: 0 auto;  /* Center the content */
+}
+
+/* Server List Section */
+.server-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 400px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+/* Server Card Styling */
+.server-card {
+    background: transparent;
+    color: white;
+    text-align: left;
+}
+
+/* Map Container beside the server info */
+.map-container {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    background-image: url('https://content.rustmaps.com/maps/264/1d56983c74524ff9995bba9ceb2d98f3/map_icons.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+/* Text in the server card */
+.server-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.server-card p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Server IP copy button */
+.copy-ip-button {
+    padding: 5px 10px;
+    background-color: #3b6b3f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.copy-ip-button:hover {
+    opacity: 0.8;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #3b6b3f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.cta-button.secondary {
+    background-color: #7289da; /* Discord blue */
+}
+
+.cta-button:hover {
+    opacity: 0.9;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .server-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .map-container {
+        max-width: 100%;
+        height: 300px;  /* Adjust height for smaller screens */
+    }
+
+    .server-list {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
 
 
 

@@ -347,6 +347,55 @@ button[type="submit"]:hover {
     color: #99aab5;  /* Discord hover color */
 }
 
+#installation {
+    background: #1e1e1e; /* Dark background for contrast */
+    color: #fff; /* White text for readability */
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 30px auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+#installation h2 {
+    font-size: 2rem;
+    font-family: 'Russo One', sans-serif;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#installation p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#installation ol {
+    text-align: left;
+    display: inline-block;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+#installation ol li {
+    margin-bottom: 10px;
+}
+
+#installation a {
+    color: #ffcc00; /* Highlight Discord link */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#installation a:hover {
+    text-decoration: underline;
+}
+
+
 
 
 
